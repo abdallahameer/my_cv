@@ -8,8 +8,8 @@ export default function Services({ id }) {
         <div className="w-full flex justify-center">
           <p className="text-5xl font-bold">Services I offer</p>
         </div>
-        <div className="flex gap-4 w-full">
-          <div className="flex flex-col gap-5 items-center justify-center w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
+        <div className="flex flex-col md:flex-row gap-4 w-full">
+          <div className="flex flex-col gap-5 items-center justify-center w-full md:w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
             <ReactIcon className="text-blue-500 w w-[50px] h-[50px]" />
             <h1 className="text-center text-xl font-semibold  mb-2">
               Frontend Developer (React / NextJs)
@@ -19,7 +19,7 @@ export default function Services({ id }) {
               Tailwind CSS, and modern frontend technologies.
             </p>
           </div>
-          <div className="flex flex-col gap-5 items-center justify-center w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
+          <div className="flex flex-col gap-5 items-center justify-center w-full md:w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
             <TeamIcon className="text-[#ad46ff] w w-[50px] h-[50px]" />
             <h1 className="text-center text-xl font-semibold  mb-2">
               Team Collaboration
@@ -30,7 +30,7 @@ export default function Services({ id }) {
               GitLab workflows.
             </p>
           </div>
-          <div className="flex flex-col gap-5 items-center justify-center w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
+          <div className="flex flex-col gap-5 items-center justify-center w-full md:w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
             <FreelancIcon className="text-green-400 w w-[50px] h-[50px]" />
             <h1 className="text-center text-xl font-semibold  mb-2">
               Freelance Frontend
@@ -42,7 +42,7 @@ export default function Services({ id }) {
               experiences.
             </p>
           </div>
-          <div className="flex flex-col gap-5 items-center justify-center w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
+          <div className="flex flex-col gap-5 items-center justify-center w-full md:w-1/4 bg-[#f0f1f2] shadow-md border border-gray-400  p-5 rounded-lg transition-transform duration-300 ease-out hover:-translate-y-2">
             <FigmaIcon className="text-[#f6339a] w w-[50px] h-[50px]" />
             <h1 className="text-center text-xl font-semibold  mb-2">
               UI/UX Design Integration

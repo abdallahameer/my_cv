@@ -120,7 +120,7 @@ export default function Skills({ id }) {
           <p className="text-5xl font-bold">Skills</p>
         </div>
         <div className="flex flex-col gap-4 w-full">
-          <div className="grid grid-cols-4 gap-6 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-full">
             {skills.map((skill) => (
               <Skill
                 key={skill.title}

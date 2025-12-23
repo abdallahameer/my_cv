@@ -181,7 +181,7 @@ export default function Projects({ id }) {
           <p className="text-5xl font-bold">Projects</p>
         </div>
         <div className="flex flex-col gap-4 w-full">
-          <div className="grid grid-cols-3 gap-6 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
             {ProjectsArray.map((project) => (
               <Project
                 key={project.name}

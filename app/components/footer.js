@@ -8,8 +8,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between items-center w-full min-h-[40px] px-[8px] bg-[#f0f1f2] ">
-      <div className="flex items-center font-medium text-sm text-center md:mb-0 mb-2 max-md:order-3 w-full">
+    <div className="flex items-center justify-between md:px-6 md:py-2 p-4 md:mt-20 mt-10 md:flex-row flex-col z-40 bg-[#f0f1f2]">
+      <div className="flex justify-center md:justify-start items-center font-medium text-sm text-center md:mb-0 mb-2 max-md:order-3 w-full">
         <CopyrightIcon />
         <p>Abdallah Ameer. All rights reserved.</p>
       </div>
@@ -42,7 +42,7 @@ export default function Footer() {
           Skills
         </a>
       </div>
-      <div className="flex justify-end gap-2 w-full text-xl">
+      <div className="flex justify-center md:justify-end gap-2 w-full text-xl">
         <Link
           href={"https://github.com/abdallahameer"}
           target="_blank"

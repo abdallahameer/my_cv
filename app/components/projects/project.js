@@ -55,23 +55,23 @@ export default function Project({
         <Link
           href={code}
           target="_blank"
-          rel="nooppener noreferrer"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm hover:text-blue-400 transition-colors"
         >
           <GitHubIcon />
           <p>Code</p>
         </Link>
-        {link ? (
+        {link && (
           <Link
             href={link}
             target="_blank"
-            rel="nooppener noreferrer"
-            className="flex gap-2 items-center text-sm hover:text-blue-400 transition-colors"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-sm hover:text-blue-400 transition-colors"
           >
             <LinkIcon />
-            <p>Live Demo</p>
+            Live Demo
           </Link>
-        ) : null}
+        )}
       </div>
     </div>
   );

@@ -8,14 +8,14 @@ import Services from "./components/services";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col gap-25 p-12.5 w-full h-full">
-      <div className="w-full h-full flex items-center justify-center">
-        <div className="w-full flex flex-col gap-12 justify-center ">
-          <div className="flex gap-2 font-bold text-6xl">
+    <div className="flex flex-col gap-12 px-4 py-8 md:p-12 w-full">
+      <div className="w-full h-full flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-center">
+        <div className="w-full flex flex-col gap-5 md:gap-12 justify-center ">
+          <div className="flex gap-2 font-bold text-4xl md:text-6xl">
             <p className=" underline decoration-[#8487bf]">Hi,</p>
             <p>I'm Abdallah</p>
           </div>
-          <p className="font-bold text-6xl">Frontend Developer</p>
+          <p className="font-bold text-4xl md:text-6xl">Frontend Developer</p>
           <p className="text-xl">
             Frontend Developer | NextJs • React • TypeScript • Tailwind
           </p>
@@ -37,7 +37,7 @@ export default function HomePage() {
         </div>
         <div className="flex justify-end items-start w-full ">
           <Image
-            className=" rounded-full w-112.5 h-112.5"
+            className=" rounded-3xl md:rounded-full w-full md:w-112.5 h-103.5 md:h-112.5"
             src={MyProfile}
             alt="my Profile"
           />

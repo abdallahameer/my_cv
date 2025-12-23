@@ -15,8 +15,8 @@ export default function AboutMe({ id }) {
         <div className="w-full flex justify-center">
           <p className="text-5xl font-bold">About me</p>
         </div>
-        <div className="flex gap-3 w-full">
-          <div className="p-5 leading-relaxed w-[70%] bg-[#f0f1f2] rounded-4xl">
+        <div className="flex flex-col md:flex-row gap-3 w-full">
+          <div className="p-5 leading-relaxed w-full md:w-[70%] bg-[#f0f1f2] rounded-4xl">
             I am a motivated Frontend Developer with hands-on experience
             building modern, high-performance web applications using React.js
             and Next.js. I work confidently with JavaScript (ES6+) and
@@ -30,7 +30,7 @@ export default function AboutMe({ id }) {
             strong attention to detail, teamwork, and a passion for continuous
             learning.
           </div>
-          <div className="flex flex-col gap-3 p-5 leading-relaxed w-[30%] bg-[#f0f1f2] rounded-4xl">
+          <div className="flex flex-col gap-3 p-5 leading-relaxed w-full md:w-[30%] bg-[#f0f1f2] rounded-4xl">
             <div className="flex gap-3">
               <UserIcon className="text-[#8487bf]" />
               <p>Abdallah Ameer</p>
